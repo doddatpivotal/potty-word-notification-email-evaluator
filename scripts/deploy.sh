@@ -2,7 +2,7 @@
 
 riff service delete potty-word-notification-email-evaluator
 
-set localpath = ${1:-.}
+localpath=${1:-.}
 
 riff function create java potty-word-notification-email-evaluator \
     --local-path $localpath \
